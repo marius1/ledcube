@@ -1,0 +1,19 @@
+Bill of materials
+-------------------------------------
+#	Amount	Name	Part				Package		Datasheet
+1	1		FT232R USB UART IC		28-Lead SSOP	http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232R.pdf
+2	1		AT-MEGA8-P (or pin similar)	DIL28		http://www.atmel.com/images/atmel-2486-8-bit-avr-microcontroller-atmega8_l_datasheet.pdf
+3	2		74LS595				DIL16		http://www.ti.com/lit/ds/symlink/sn74ls595.pdf
+4	2		ULN2803				DIL18		http://www.ti.com/lit/ds/symlink/uln2803a.pdf
+5	1		USB Mini-B surface mounted
+6	1		16 MHz Crystal
+7	2		22pF Capacitor
+8	2		100nF Capacitor
+9	1		10uF Capacitor
+10	3		10k Ohm Resistor
+11	5		1k Ohm Resistor
+12	1		Button
+13	4		BC547 Transistor
+14	4		56 Ohm Resistor
+15	65		3 or 5 mm Led
+16			Male and female headers
