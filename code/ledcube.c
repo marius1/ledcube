@@ -231,26 +231,25 @@ int main(void)
 	//memset(buffer, 0xff, 125 );
 	//memset(frame, 0xff, 125 );
 
-	uint32_t i, j, k;
-	uint16_t val;
-	
-	toggleLevel(3);		
-	
+	uint32_t i;
+
+	toggleLevel(3);
+		
 	while(1) {
 		status_led_on();
 		
-		for(j=0;j<16;j++)
+		/*for(j=0;j<16;j++)
 		{
 			val = (1 << j);
 			latch_low();
 			shiftOut( (val >> 8 ));
 			shiftOut( val );
 			latch_high();
-		}
-				
-		/*for( i = pos; i < pos + num_leds; i++ ) {
-			setLed(anim[i]);			
 		}*/
+				
+		for( i = pos; i < pos + num_leds; i++ ) {
+			setLed(anim[i]);			
+		}
 		
 		/*for( i = 0; i < sizeof(frame); i++ ) {
 			if ( 0xff == frame[i] ) 
